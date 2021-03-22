@@ -8,7 +8,7 @@ i:		.word 1, 0, 0, 0, 0, 0, 0, 0, 0, 0
 la x10, i
 lw x11, 0(x10) #i
 li x12, 1 #counter
-li x13, 10 #max_counter (n-1)
+li x13, 11 #max_counter (n-1)
 li x14, 2 #i-1
 branch: bge x12, x13, end
 	or x11, x0, x12 #x11 = x12 = counter
